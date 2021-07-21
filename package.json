@@ -1,0 +1,23 @@
+{
+  "name": "hello_world",
+  "version": "1.0.0",
+  "description": "hello world sample for NodeJS",
+  "main": "index.js",
+  "repository": "https://github.com/awslabs/aws-sam-cli/tree/develop/samcli/local/init/templates/cookiecutter-aws-sam-hello-nodejs",
+  "author": "SAM CLI",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.948.0",
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0"
+  },
+  "scripts": {
+    "test": "mocha tests/unit/",
+    "start": "node -e \"(async () => console.log(await require('./index').luchoFunkchon({})))();\""
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.4.0",
+    "nyc": "^15.1.0"
+  }
+}
