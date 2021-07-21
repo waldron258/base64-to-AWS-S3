@@ -5,3 +5,4 @@ npm-debug.log
 tests/
 hello-world/
 .vscode/
+.env
