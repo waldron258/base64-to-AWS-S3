@@ -1,9 +1,0 @@
-Resources:
-  helloworld:
-    Type: AWS::Serverless::Function
-    Properties:
-      Handler: index.luchoFunkchon
-      CodeUri: C:/Users/garzi/Documents/OMNIX/AWS/hello-world/hello-world
-      Runtime: nodejs12.x
-      Environment:
-        Variables: {}
